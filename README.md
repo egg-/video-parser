@@ -1,5 +1,16 @@
 # video-parser
 
+## Dependencies
+
+### ffmpeg
+
+* get metadata of custom video.
+* [http://www.ffmpeg.org/](http://www.ffmpeg.org/)
+
+```
+$ brew install ffmpeg --with-openssl
+```
+
 ## Usage
 
 ```javascript
