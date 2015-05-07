@@ -1,0 +1,31 @@
+{
+  "name": "video-parser",
+  "version": "0.0.1",
+  "author": {
+    "name": "egg",
+    "email": "i@egg.pe.kr"
+  },
+  "description": "Extract video information by parsing the url.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/egg-/video-parser.git"
+  },
+  "main": "./index",
+  "devDependencies": {
+    "fb": "^0.7.0",
+    "fluent-ffmpeg": "^2.0.1",
+    "lodash": "^3.8.0",
+    "merge-defaults": "^0.2.1",
+    "redis": "^0.12.1",
+    "request": "^2.55.0"
+  },
+  "dependencies": {
+    "fb": "^0.7.0",
+    "fluent-ffmpeg": "^2.0.1",
+    "lodash": "^3.8.0",
+    "merge-defaults": "^0.2.1",
+    "redis": "^0.12.1",
+    "request": "^2.55.0"
+  }
+}
