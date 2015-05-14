@@ -1,6 +1,6 @@
 {
   "name": "video-parser",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "egg",
     "email": "i@egg.pe.kr"
@@ -11,6 +11,14 @@
     "type": "git",
     "url": "git://github.com/egg-/video-parser.git"
   },
+  "keywords": [
+    "video",
+    "parser",
+    "youtube",
+    "vimeo",
+    "facebook"
+  ],
+  "license": "MIT",
   "main": "./index",
   "devDependencies": {
     "fb": "^0.7.0",
