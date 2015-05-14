@@ -1,5 +1,7 @@
 # video-parser
 
+[![version](https://img.shields.io/npm/v/video-parser.svg) ![download](https://img.shields.io/npm/dm/video-parser.svg)](https://www.npmjs.com/package/video-parser)
+
 Extract video information by parsing the url.
 
 ### Support provider
