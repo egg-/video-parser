@@ -1,4 +1,4 @@
-var VideoParser = require('video-parser');
+var VideoParser = require('./');
 
 var parser = new VideoParser({
     name: 'video-parser-cache',
