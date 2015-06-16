@@ -1,6 +1,6 @@
 {
   "name": "video-parser",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "egg",
     "email": "i@egg.pe.kr"
@@ -30,6 +30,7 @@
     "fluent-ffmpeg": "^2.0.1",
     "lodash": "^3.8.0",
     "merge-defaults": "^0.2.1",
+    "moment": "^2.10.3",
     "redis": "^0.12.1",
     "request": "^2.55.0"
   }
