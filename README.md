@@ -9,6 +9,7 @@ Extract video information by parsing the url.
 * youtube
 * vimeo
 * facebook video
+* youku
 
 ## Dependencies
 
@@ -38,6 +39,9 @@ var parser = new VideoParser({
     vimeo: {
         access_token: ''
     },
+    youku: {
+        key: ''
+    }
     ttl: 3600 * 12  // 1 day
 });
 
@@ -51,7 +55,8 @@ var url = [
     'https://youtu.be/-RWl24TUW6g',
     'https://vimeo.com/60788712',
     'https://www.facebook.com/video/embed?video_id=368508506585276',
-    'https://www.facebook.com/1399785403664362/videos/1428693740773528/'
+    'https://www.facebook.com/1399785403664362/videos/1428693740773528/',
+    'http://v.youku.com/v_show/id_XMTMwMDYxMjQxMg==_ev_1.html?from=y1.3-idx-uhome-1519-20887.205805-205902.1-1'
 ];
 
 for (var i = 0; i < url.length; i++) {
@@ -121,6 +126,24 @@ for (var i = 0; i < url.length; i++) {
       }
    },
    "provider":"facebook"
+}
+
+{
+    "id": "XMTI5NTcwMDA3Mg==",
+    "url": "http://v.youku.com/v_show/id_XMTI5NTcwMDA3Mg==.html",
+    "name": "李湘隔空合唱邓丽君 花千骨东方彧卿深情献唱",
+    "desc": "",
+    "thumb_url": "http://g2.ykimg.com/1100641F4655B76A9B6A612E697BDCD5D108B3-6D55-8549-378A-C357FE00D212",
+    "duration": "111.41",
+    "ctime": "2015-07-28T19:15:32+09:00",
+    "details": {
+        "definition": "",
+        "author": {
+            "id": "778664924",
+            "title": "歌手是谁"
+        }
+    },
+    "provider": "youku"
 }
 ```
 
