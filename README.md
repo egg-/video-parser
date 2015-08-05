@@ -148,6 +148,11 @@ for (var i = 0; i < url.length; i++) {
 ```
 
 
+## Release History
+
+See the [changelog](CHANGELOG.md)
+
+
 ## LICENSE
 
 video-parser is licensed under the MIT license.

@@ -25,7 +25,12 @@ parser.on('error', function(err) {
 
 var url = [
     // 'https://www.youtube.com/watch?v=-RWl24TUW6g',
+    // 'https://www.youtube.com/watch?t=30&v=nt4fMMCNdRk',
+    // 'https://www.youtube.com/watch?v=-RWl24TUW6g',
+    // 'https://youtu.be/O5jUi3kBins',
+    // 'https://youtu.be/O5jUi3kBins?t=16s',
     // 'https://youtu.be/-RWl24TUW6g',
+    // 'https://www.youtube.com/watch?t=28&v=B4k8BiTd-_s',
     // 'https://vimeo.com/60788712',
     // 'https://www.facebook.com/video/embed?video_id=368508506585276',
     // 'https://www.facebook.com/1399785403664362/videos/1428693740773528/',
