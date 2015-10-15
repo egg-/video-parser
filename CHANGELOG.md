@@ -1,3 +1,9 @@
+# 1.4.0
+
+2015-10-15
+
+ - Add Dailymotion parser.
+
 # 1.3.3
 
 2015-08-05
@@ -9,7 +15,6 @@
 2015-08-05
 
  - Update youtube regular expression for the time specified URL.
-
 
 # 1.3.0
 

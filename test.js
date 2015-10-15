@@ -1,3 +1,5 @@
+'use strict';
+
 var VideoParser = require('./');
 
 var parser = new VideoParser({
@@ -39,10 +41,12 @@ var url = [
     // 'http://v.youku.com/v_show/id_XMTMwMDgxNTY0NA==.html?f=25924643&ev=3',
     // 'http://player.youku.com/player.php/Type/Folder/Fid/25924643/Ob/1/sid/XMTMwMDgxNTY0NA==/v.swf'
     // 'http://player.youku.com/embed/XMTI5NTcwMDA3Mg=='
+    // 'http://dai.ly/x2jvvep',
+    // 'http://www.dailymotion.com/video/x2jvvep'
 ];
 
 for (var i = 0; i < url.length; i++) {
     parser.parse(function(err, video) {
-        console.log(url, video);
+        console.log(url, JSON.stringify(video), err);
     }, url[i]);
 }
