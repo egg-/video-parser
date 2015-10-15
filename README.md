@@ -10,6 +10,7 @@ Extract video information by parsing the url.
 * vimeo
 * facebook video
 * youku
+* dailymotion
 
 ## Dependencies
 
@@ -56,7 +57,9 @@ var url = [
     'https://vimeo.com/60788712',
     'https://www.facebook.com/video/embed?video_id=368508506585276',
     'https://www.facebook.com/1399785403664362/videos/1428693740773528/',
-    'http://v.youku.com/v_show/id_XMTMwMDYxMjQxMg==_ev_1.html?from=y1.3-idx-uhome-1519-20887.205805-205902.1-1'
+    'http://v.youku.com/v_show/id_XMTMwMDYxMjQxMg==_ev_1.html?from=y1.3-idx-uhome-1519-20887.205805-205902.1-1',
+    'http://dai.ly/x2jvvep',
+    'http://www.dailymotion.com/video/x2jvvep'
 ];
 
 for (var i = 0; i < url.length; i++) {
@@ -144,6 +147,25 @@ for (var i = 0; i < url.length; i++) {
         }
     },
     "provider": "youku"
+}
+
+{
+    "id": "x2jvvep",
+    "url": "http://www.dailymotion.com/video/x2jvvep_coup-incroyable-pendant-un-match-de-ping-pong_tv",
+    "name": "Coup incroyable pendant un match de ping-pong",
+    "desc": "",
+    "thumb_url": "http://s2.dmcdn.net/JdVUk/x720-jcH.jpg",
+    "duration": 12,
+    "ctime": "2015-03-19T04:15:48+09:00",
+    "ratings": {},
+    "details": {
+        "definition": "",
+        "author": {
+            "id": "x1gyl14",
+            "title": "BuzzVid"
+        }
+    },
+    "provider": "dailymotion"
 }
 ```
 
