@@ -46,6 +46,10 @@ var url = [
 ];
 
 for (var i = 0; i < url.length; i++) {
+    VideoParser.parse(function() {
+        console.log(arguments);
+    }, url[i]);
+
     parser.parse(function(err, video) {
         console.log(url, JSON.stringify(video), err);
     }, url[i]);
