@@ -7,12 +7,12 @@ Important: If you find compatibility issues, check the bug reporting page.
 
 ### Support provider
 
-* youtube
-* vimeo
-* facebook video
-* youku
-* dailymotion
-* naver tvcast - It can be stopped unexpectedly due to parse the data from the site.
+* youtube: https://www.youtube.com/
+* vimeo: https://vimeo.com/
+* facebook video: 
+* youku: http://www.youku.com/
+* dailymotion: http://www.dailymotion.com/kr
+* naver tvcast: http://tvcast.naver.com - It can be stopped unexpectedly due to parse the data from the site.
 
 ## Dependencies
 
@@ -61,7 +61,8 @@ var url = [
     'https://www.facebook.com/1399785403664362/videos/1428693740773528/',
     'http://v.youku.com/v_show/id_XMTMwMDYxMjQxMg==_ev_1.html?from=y1.3-idx-uhome-1519-20887.205805-205902.1-1',
     'http://dai.ly/x2jvvep',
-    'http://www.dailymotion.com/video/x2jvvep'
+    'http://www.dailymotion.com/video/x2jvvep',
+    'http://tvcast.naver.com/v/584455'
 ];
 
 for (var i = 0; i < url.length; i++) {

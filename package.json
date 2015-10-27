@@ -1,6 +1,6 @@
 {
   "name": "video-parser",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "author": {
     "name": "egg",
     "email": "i@egg.pe.kr"
@@ -17,7 +17,10 @@
     "youtube",
     "vimeo",
     "facebook",
-    "youku"
+    "youku",
+    "dailymotion",
+    "naver",
+    "tvcast"
   ],
   "license": "MIT",
   "main": "./index",
