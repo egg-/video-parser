@@ -3,6 +3,7 @@
 [![version](https://img.shields.io/npm/v/video-parser.svg) ![download](https://img.shields.io/npm/dm/video-parser.svg)](https://www.npmjs.com/package/video-parser)
 
 Extract video information by parsing the url.
+Important: If you find compatibility issues, check the bug reporting page.
 
 ### Support provider
 
@@ -11,6 +12,7 @@ Extract video information by parsing the url.
 * facebook video
 * youku
 * dailymotion
+* naver tvcast - It can be stopped unexpectedly due to parse the data from the site.
 
 ## Dependencies
 
@@ -166,6 +168,30 @@ for (var i = 0; i < url.length; i++) {
         }
     },
     "provider": "dailymotion"
+}
+
+{
+    "id": "584455",
+    "url": "http://tvcast.naver.com/v/584455",
+    "name": "3화 - 도저히 잊혀지지가 않아!",
+    "desc": "웹드라마 그녀는 200살 | 포미닛 남지현과 지은성의 예쁜 동화같은 웹드라마\r\n세연의 비밀을 알게된 정훈은 세연이 계속궁금하다. 친구동균으로부터 받은 컨설팅으로 세연의 집주위를 계속 어슬렁거리는 정훈..그러다 어느날 우연히 경기도청에서 세연을 만나게 되고 정훈은 세연에게 친구 하자고 제안해 보는데...\r\n",
+    "thumb_url": "http://tvcast2.phinf.naver.net/20151026_230/elist_1445865036626CarJb_JPEG/1445865036605.jpg?type=f880_495",
+    "duration": 0,
+    "ctime": "1970-01-01T09:00:00+09:00",
+    "ratings": {},
+    "details": {
+        "definition": "",
+        "author": {
+            "id": "sheis200",
+            "title": "웹드라마 그녀는 200살"
+        },
+        "naver": {
+            "type": "rmc",
+            "id": "6222B33F27EDFDE83F2A955B677C4B8B7FA2",
+            "key": "V121253bc99970caa8aa05d241b37b14007b5db8025ba322fc5bd5d241b37b14007b5"
+        }
+    },
+    "provider": "navertvcast"
 }
 ```
 
