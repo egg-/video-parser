@@ -42,15 +42,23 @@ var url = [
     // 'http://player.youku.com/player.php/Type/Folder/Fid/25924643/Ob/1/sid/XMTMwMDgxNTY0NA==/v.swf'
     // 'http://player.youku.com/embed/XMTI5NTcwMDA3Mg=='
     // 'http://dai.ly/x2jvvep',
-    // 'http://www.dailymotion.com/video/x2jvvep'
+    // 'http://www.dailymotion.com/video/x2jvvep',
+    // 'http://tvcast.naver.com/v/13346/list/1316',
+    // 'http://tvcast.naver.com/v/13346',
+    // 'http://tvcast.naver.com/v/505592',
+    // 'http://tvcast.naver.com/v/582616',
+    // 'http://m.tvcast.naver.com/v/582691',
+    // 'http://m.tvcast.naver.com/v/582587',
+    'http://m.tvcast.naver.com/v/584519',
+    // 'http://tvcast.naver.com/v/584455/list/53478'
 ];
 
 for (var i = 0; i < url.length; i++) {
-    VideoParser.parse(function() {
-        console.log(arguments);
-    }, url[i]);
+    // VideoParser.parse(function() {
+    //     console.log(arguments);
+    // }, url[i]);
 
     parser.parse(function(err, video) {
-        console.log(url, JSON.stringify(video), err);
+        console.log(JSON.stringify(video), err);
     }, url[i]);
 }
