@@ -1,3 +1,9 @@
+# 1.5.2
+
+2015-10-28
+
+- naver tvcast: add duration, author info, outkey.
+
 # 1.5.1
 
 2015-10-27

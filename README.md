@@ -7,12 +7,12 @@ Important: If you find compatibility issues, check the bug reporting page.
 
 ### Support provider
 
-* youtube: https://www.youtube.com/
-* vimeo: https://vimeo.com/
+* [youtube](https://www.youtube.com/)
+* [vimeo](https://vimeo.com/)
 * facebook video: 
-* youku: http://www.youku.com/
-* dailymotion: http://www.dailymotion.com/kr
-* naver tvcast: http://tvcast.naver.com - It can be stopped unexpectedly due to parse the data from the site.
+* [youku](http://www.youku.com/)
+* [dailymotion](http://www.dailymotion.com/kr)
+* [naver tvcast](http://tvcast.naver.com) - It can be stopped unexpectedly due to parse the data from the site.
 
 ## Dependencies
 
@@ -172,24 +172,25 @@ for (var i = 0; i < url.length; i++) {
 }
 
 {
-    "id": "584455",
-    "url": "http://tvcast.naver.com/v/584455",
-    "name": "3화 - 도저히 잊혀지지가 않아!",
-    "desc": "웹드라마 그녀는 200살 | 포미닛 남지현과 지은성의 예쁜 동화같은 웹드라마\r\n세연의 비밀을 알게된 정훈은 세연이 계속궁금하다. 친구동균으로부터 받은 컨설팅으로 세연의 집주위를 계속 어슬렁거리는 정훈..그러다 어느날 우연히 경기도청에서 세연을 만나게 되고 정훈은 세연에게 친구 하자고 제안해 보는데...\r\n",
-    "thumb_url": "http://tvcast2.phinf.naver.net/20151026_230/elist_1445865036626CarJb_JPEG/1445865036605.jpg?type=f880_495",
-    "duration": 0,
-    "ctime": "1970-01-01T09:00:00+09:00",
+    "id": "584519",
+    "url": "http://tvcast.naver.com/v/584519",
+    "name": "유아인, 김명민 혁명 계획에 감탄 ‘드러난 새나라 야망’",
+    "desc": "육룡이 나르샤 | 유아인(이방원)은 김명민(정도전)이 함주를 진채로 삼아 대업을 이루려 하는 계책을 알아채고 함주행을 결심한다.",
+    "thumb_url": "https://phinf.pstatic.net/tvcast/20151026_171/MapUH_1445869595323u45p4_JPEG/VD25643053_w1280.jpg?type=f640",
+    "duration": 105.34,
+    "ctime": "2015-10-26T00:00:00+09:00",
     "ratings": {},
     "details": {
         "definition": "",
         "author": {
-            "id": "sheis200",
-            "title": "웹드라마 그녀는 200살"
+            "id": "wrappinguser22",
+            "title": "육룡이 나르샤"
         },
         "naver": {
             "type": "rmc",
-            "id": "6222B33F27EDFDE83F2A955B677C4B8B7FA2",
-            "key": "V121253bc99970caa8aa05d241b37b14007b5db8025ba322fc5bd5d241b37b14007b5"
+            "id": "C837743DE6795512FA2E56224BBECFD431E9",
+            "key": "V12469d52b53042820590d0d35e98ea296cc1874c2b59a7991650926e2c7bd9cafb91d0d35e98ea296cc1",
+            "outkey": "V129926e2c7b2d9cafb91d0d35e98ea296cc1b6005277eb724a92d0d35e98ea296cc1"
         }
     },
     "provider": "navertvcast"
