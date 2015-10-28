@@ -172,25 +172,24 @@ for (var i = 0; i < url.length; i++) {
 }
 
 {
-    "id": "584519",
-    "url": "http://tvcast.naver.com/v/584519",
-    "name": "유아인, 김명민 혁명 계획에 감탄 ‘드러난 새나라 야망’",
-    "desc": "육룡이 나르샤 | 유아인(이방원)은 김명민(정도전)이 함주를 진채로 삼아 대업을 이루려 하는 계책을 알아채고 함주행을 결심한다.",
-    "thumb_url": "https://phinf.pstatic.net/tvcast/20151026_171/MapUH_1445869595323u45p4_JPEG/VD25643053_w1280.jpg?type=f640",
-    "duration": 105.34,
-    "ctime": "2015-10-26T00:00:00+09:00",
+    "id": "582603",
+    "url": "http://tvcast.naver.com/v/582603",
+    "name": "한국생활에 정 든 추사랑 “한국서 살고싶어”",
+    "desc": "슈퍼맨이 돌아왔다 | 한국생활에 정 든 추사랑 “한국서 살고싶어”",
+    "thumb_url": "https://phinf.pstatic.net/tvcast/20151025_190/AkWJa_1445766984283jVYYH_PNG/2Do9GAqaIuXP.png?type=f640",
+    "duration": 113.39,
+    "ctime": "2015-10-25T00:00:00+09:00",
     "ratings": {},
     "details": {
         "definition": "",
         "author": {
-            "id": "wrappinguser22",
-            "title": "육룡이 나르샤"
+            "id": "wrappinguser16",
+            "title": "슈퍼맨이 돌아왔다"
         },
         "naver": {
             "type": "rmc",
-            "id": "C837743DE6795512FA2E56224BBECFD431E9",
-            "key": "V12469d52b53042820590d0d35e98ea296cc1874c2b59a7991650926e2c7bd9cafb91d0d35e98ea296cc1",
-            "outkey": "V129926e2c7b2d9cafb91d0d35e98ea296cc1b6005277eb724a92d0d35e98ea296cc1"
+            "id": "9BC32CD10418DA3E3507824EBBE544930BA0",
+            "key": "V12633341205ea37bf048329efcd1e2f1382a611bbd1d85bc56f8329efcd1e2f1382a"
         }
     },
     "provider": "navertvcast"
