@@ -17,7 +17,7 @@ var parser = new VideoParser({
     youku: {
         key: ''     // client_id
     },
-    ttl: 3600 * 12  // 1 day
+    ttl: 1// 3600 * 12  // 1 day
 });
 
 
@@ -49,7 +49,7 @@ var url = [
     // 'http://tvcast.naver.com/v/582616',
     // 'http://m.tvcast.naver.com/v/582691',
     // 'http://m.tvcast.naver.com/v/582587',
-    'http://m.tvcast.naver.com/v/584519',
+    'http://tvcast.naver.com/v/582590',
     // 'http://tvcast.naver.com/v/584455/list/53478'
 ];
 
