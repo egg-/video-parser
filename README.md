@@ -9,7 +9,7 @@ Important: If you find compatibility issues, check the bug reporting page.
 
 * [youtube](https://www.youtube.com/)
 * [vimeo](https://vimeo.com/)
-* facebook video: 
+* facebook video: The videos can be registered to the pages only. Other video registered individuals does not provide the metadata from api.
 * [youku](http://www.youku.com/)
 * [dailymotion](http://www.dailymotion.com/kr)
 * [naver tvcast](http://tvcast.naver.com) - It can be stopped unexpectedly due to parse the data from the site.

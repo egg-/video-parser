@@ -1,3 +1,7 @@
+# 1.5.5
+
+- add facebook url pattern.
+
 # 1.5.4
 
 - fix bug: #14
