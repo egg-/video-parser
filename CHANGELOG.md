@@ -1,3 +1,7 @@
+# 1.6.0
+
+- Add rutube parser. (http://rutube.ru/)
+
 # 1.5.5
 
 - add facebook url pattern.

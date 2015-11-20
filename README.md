@@ -5,6 +5,8 @@
 Extract video information by parsing the url.
 Important: If you find compatibility issues, check the bug reporting page.
 
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
 ### Support provider
 
 * [youtube](https://www.youtube.com/)
@@ -13,6 +15,7 @@ Important: If you find compatibility issues, check the bug reporting page.
 * [youku](http://www.youku.com/)
 * [dailymotion](http://www.dailymotion.com/kr)
 * [naver tvcast](http://tvcast.naver.com) - It can be stopped unexpectedly due to parse the data from the site.
+* [rutube](http://rutube.ru/)
 
 ## Dependencies
 
@@ -28,7 +31,7 @@ $ brew install ffmpeg --with-openssl
 ## Usage
 
 ```javascript
-var VideoParser = require('video-parser');
+var VideoParser = require('video-parser')
 
 var parser = new VideoParser({
     name: 'video-parser-cache',
@@ -46,12 +49,12 @@ var parser = new VideoParser({
         key: ''
     }
     ttl: 3600 * 12  // 1 day
-});
+})
 
 
 parser.on('error', function(err) {
-    console.error(err);
-});
+    console.error(err)
+})
 
 var url = [
     'https://www.youtube.com/watch?v=-RWl24TUW6g',
@@ -62,13 +65,14 @@ var url = [
     'http://v.youku.com/v_show/id_XMTMwMDYxMjQxMg==_ev_1.html?from=y1.3-idx-uhome-1519-20887.205805-205902.1-1',
     'http://dai.ly/x2jvvep',
     'http://www.dailymotion.com/video/x2jvvep',
-    'http://tvcast.naver.com/v/584455'
-];
+    'http://tvcast.naver.com/v/584455',
+    'http://rutube.ru/video/2a39043b2108428a150fa27376adbea2/'
+]
 
 for (var i = 0; i < url.length; i++) {
     parser.parse(function(err, video) {
-        console.log(video);
-    }, url[i]);
+        console.log(video)
+    }, url[i])
 }
 
 ```
@@ -193,6 +197,28 @@ for (var i = 0; i < url.length; i++) {
         }
     },
     "provider": "navertvcast"
+}
+
+{
+    "id": "2a39043b2108428a150fa27376adbea2",
+    "url": "http://rutube.ru/video/2a39043b2108428a150fa27376adbea2/",
+    "name": "- группа ' Моя Мишель' 13.02.2015",
+    "desc": "https://vk.com/public53281593 #НовоеВидео: #",
+    "thumb_url": "http://pic.rutube.ru/video/01/c4/01c4023404f364a32a015924154e23a3.jpg",
+    "duration": 242,
+    "ctime": "2015-02-14T05:33:33+09:00",
+    "ratings": {},
+    "details": {
+        "definition": "",
+        "author": {
+            "id": 245325,
+            "title": "музыка"
+        },
+        "embed": {
+            "url": "http://rutube.ru/play/embed/7508261"
+        }
+    },
+    "provider": "rutube"
 }
 ```
 
