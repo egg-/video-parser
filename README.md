@@ -16,6 +16,7 @@ Important: If you find compatibility issues, check the bug reporting page.
 * [dailymotion](http://www.dailymotion.com/kr)
 * [naver tvcast](http://tvcast.naver.com) - It can be stopped unexpectedly due to parse the data from the site.
 * [rutube](http://rutube.ru/)
+* [daum tvpot](http://tvpot.daum.net) - It can be stopped unexpectedly due to parse the data from the site.
 
 ## Dependencies
 
@@ -66,7 +67,8 @@ var url = [
     'http://dai.ly/x2jvvep',
     'http://www.dailymotion.com/video/x2jvvep',
     'http://tvcast.naver.com/v/584455',
-    'http://rutube.ru/video/2a39043b2108428a150fa27376adbea2/'
+    'http://rutube.ru/video/2a39043b2108428a150fa27376adbea2/',
+    'http://tvpot.daum.net/mypot/View.do?clipid=72583600&ownerid=mRlSExWR4-Q0'
 ]
 
 for (var i = 0; i < url.length; i++) {
@@ -219,6 +221,25 @@ for (var i = 0; i < url.length; i++) {
         }
     },
     "provider": "rutube"
+}
+
+{
+    "id": "72583600",
+    "url": "http://tvpot.daum.net/v/s6ad9xjxXVTXTazTzGTTaon",
+    "name": "[Daum tv팟][17회 예고] &#39;길태미&#39; 박혁권, &#39;이방지&#39; 변요한과 최후의 대결? [육룡이 나르샤] 16회 20151124",
+    "desc": "드라마 | 육룡이 나르샤 17회 \r\n본방송 | 11월 30일 월요일 밤 10시",
+    "thumb_url": "http://i1.daumcdn.net/thumb/C480x270/?fname=http://i1.daumcdn.net/svc/image/U03/tvpot_thumb/s6ad9xjxXVTXTazTzGTTaon/thumb.png?t=1448411362833",
+    "duration": 37,
+    "ctime": "2015-11-24T23:54:43+09:00",
+    "ratings": {},
+    "details": {
+        "definition": "",
+        "author": {
+            "id": "mRlSExWR4-Q0",
+            "title": "SBS"
+        }
+    },
+    "provider": "daumtvpot"
 }
 ```
 

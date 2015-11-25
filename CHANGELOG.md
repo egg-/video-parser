@@ -1,3 +1,7 @@
+# 1.7.0
+
+- Add daum tvpot parser. (http://tvpot.daum.net/)
+
 # 1.6.0
 
 - Add rutube parser. (http://rutube.ru/)

@@ -46,6 +46,8 @@ var url = [
   // 'http://player.youku.com/embed/XMTI5NTcwMDA3Mg=='
   // 'http://dai.ly/x2jvvep',
   // 'http://www.dailymotion.com/video/x2jvvep',
+
+  // naver tvcast
   // 'http://tvcast.naver.com/v/13346/list/1316',
   // 'http://tvcast.naver.com/v/13346',
   // 'http://tvcast.naver.com/v/505592',
@@ -54,10 +56,19 @@ var url = [
   // 'http://m.tvcast.naver.com/v/582587',
   // 'http://tvcast.naver.com/v/582590',
   // 'http://tvcast.naver.com/v/584455/list/53478'
+
   // rutube
   // 'http://rutube.ru/video/2a39043b2108428a150fa27376adbea2/',
   // 'http://video.rutube.ru/7508261',
   // 'rutube.ru/play/embed/7962382',
+
+  // daum tvpot
+  // 'http://m.tvpot.daum.net/v/72525651',
+  // 'http://tvpot.daum.net/mypot/View.do?clipid=72525651&ownerid=45x1okb1If50',
+  // 'http://tvpot.daum.net/v/sb0fdSwSjVJfS6xf6SixjtJ',
+  // 'http://tvpot.daum.net/mypot/View.do?ownerid=45x1okb1If50&playlistid=6064073&clipid=72525613',
+  // 'http://tvpot.daum.net/clip/ClipView.do?clipid=72589907',
+  // 'http://tvpot.daum.net/v/34RNu2rwWe8%24'
 ]
 
 for (var i = 0; i < url.length; i++) {
@@ -68,4 +79,25 @@ for (var i = 0; i < url.length; i++) {
   parser.parse(function (err, video) {
     console.log(JSON.stringify(video), err)
   }, url[i])
+}
+
+// test duration
+var durations = [
+  {
+    txt: 'PT15M51S',
+    val: 951
+  },
+  {
+    txt: '01:22:33',
+    val: 4953
+  },
+  {
+    txt: '22:33',
+    val: 1353
+  }
+]
+console.log('Test parseDuration')
+for (var j = 0, d = null; j < durations.length; j++) {
+  d = durations[j]
+  console.log(d.txt + ': ', d.val === VideoParser.parseDuration(d.txt))
 }
