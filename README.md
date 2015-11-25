@@ -237,6 +237,10 @@ for (var i = 0; i < url.length; i++) {
         "author": {
             "id": "mRlSExWR4-Q0",
             "title": "SBS"
+        },
+        "embed": {
+            "id": "s6ad9xjxXVTXTazTzGTTaon",
+            "url": "http://videofarm.daum.net/controller/video/viewer/Video.html?vid=s6ad9xjxXVTXTazTzGTTaon&play_loc=undefined"
         }
     },
     "provider": "daumtvpot"

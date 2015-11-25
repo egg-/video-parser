@@ -1,3 +1,7 @@
+# 1.7.1
+
+- Add embed info to daum tvpot video.
+
 # 1.7.0
 
 - Add daum tvpot parser. (http://tvpot.daum.net/)

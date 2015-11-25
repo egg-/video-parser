@@ -68,7 +68,8 @@ var url = [
   // 'http://tvpot.daum.net/v/sb0fdSwSjVJfS6xf6SixjtJ',
   // 'http://tvpot.daum.net/mypot/View.do?ownerid=45x1okb1If50&playlistid=6064073&clipid=72525613',
   // 'http://tvpot.daum.net/clip/ClipView.do?clipid=72589907',
-  // 'http://tvpot.daum.net/v/34RNu2rwWe8%24'
+  // 'http://tvpot.daum.net/v/34RNu2rwWe8%24',
+  // 'http://tvpot.daum.net/mypot/View.do?clipid=72583600&ownerid=mRlSExWR4-Q0'
 ]
 
 for (var i = 0; i < url.length; i++) {
