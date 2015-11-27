@@ -1,3 +1,7 @@
+# 1.8.0
+
+- Change facebook video data structure.
+
 # 1.7.1
 
 - Add embed info to daum tvpot video.

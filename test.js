@@ -33,12 +33,17 @@ var url = [
   // 'https://youtu.be/-RWl24TUW6g',
   // 'https://www.youtube.com/watch?t=28&v=B4k8BiTd-_s',
   // 'https://vimeo.com/60788712',
+
+  // facebook
   // 'https://www.facebook.com/video/embed?video_id=368508506585276',
   // 'https://www.facebook.com/1399785403664362/videos/1428693740773528/',
   // 'https://www.facebook.com/snackk100/videos/754790044667598/?permPage=1',
-  // 'https://www.facebook.com/insight.co.kr/videos/vb.374726359324617/907652546031993/?type=2&theater'
+  // 'https://www.facebook.com/insight.co.kr/videos/vb.374726359324617/907652546031993/?type=2&theater',
   // 'https://www.facebook.com/Jrockradio/videos/vb.102198813200663/880536688700201/?type=2&theater',
-  // 'https://www.facebook.com/ICMSChairman/videos/vb.595785693780145/1089273701098006/?type=2&theater'
+  // 'https://www.facebook.com/ICMSChairman/videos/vb.595785693780145/1089273701098006/?type=2&theater',
+  // 'https://www.facebook.com/huffpostkorea/videos/615775111903484/?permPage=1',
+  // 'https://www.facebook.com/snackk100/videos/vb.713427005470569/765726663573936/?type=2&theater',
+
   // 'http://v.youku.com/v_show/id_XMTMwMDYxMjQxMg==_ev_1.html?from=y1.3-idx-uhome-1519-20887.205805-205902.1-1',
   // 'http://v.youku.com/v_show/id_XMTI5NDcwNjQxNg==.html?f=23007024&from=y1.3-idx-uhome-1519-20887.205908-205909-205916.1-3',
   // 'http://v.youku.com/v_show/id_XMTMwMDgxNTY0NA==.html?f=25924643&ev=3',

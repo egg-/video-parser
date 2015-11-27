@@ -3,7 +3,10 @@
 [![version](https://img.shields.io/npm/v/video-parser.svg) ![download](https://img.shields.io/npm/dm/video-parser.svg)](https://www.npmjs.com/package/video-parser)
 
 Extract video information by parsing the url.
-Important: If you find compatibility issues, check the bug reporting page.
+
+Important
+* If you find compatibility issues, check the bug reporting page.
+* Change facebook video data stucture at v1.8.0 (see also [#15](/../../issues/15))
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
@@ -11,7 +14,7 @@ Important: If you find compatibility issues, check the bug reporting page.
 
 * [youtube](https://www.youtube.com/)
 * [vimeo](https://vimeo.com/)
-* facebook video: The videos can be registered to the pages only. Other video registered individuals does not provide the metadata from api.
+* [facebook video](https://developers.facebook.com/docs/graph-api/reference/video): The videos can be registered to the pages only. Other video registered individuals does not provide the metadata from api.
 * [youku](http://www.youku.com/)
 * [dailymotion](http://www.dailymotion.com/kr)
 * [naver tvcast](http://tvcast.naver.com) - It can be stopped unexpectedly due to parse the data from the site.
@@ -59,12 +62,9 @@ parser.on('error', function(err) {
 
 var url = [
     'https://www.youtube.com/watch?v=-RWl24TUW6g',
-    'https://youtu.be/-RWl24TUW6g',
     'https://vimeo.com/60788712',
-    'https://www.facebook.com/video/embed?video_id=368508506585276',
-    'https://www.facebook.com/1399785403664362/videos/1428693740773528/',
+    'https://www.facebook.com/snackk100/videos/vb.713427005470569/765726663573936/?type=2&theater',
     'http://v.youku.com/v_show/id_XMTMwMDYxMjQxMg==_ev_1.html?from=y1.3-idx-uhome-1519-20887.205805-205902.1-1',
-    'http://dai.ly/x2jvvep',
     'http://www.dailymotion.com/video/x2jvvep',
     'http://tvcast.naver.com/v/584455',
     'http://rutube.ru/video/2a39043b2108428a150fa27376adbea2/',
@@ -123,21 +123,23 @@ for (var i = 0; i < url.length; i++) {
 }
 
 {
-   "id":"1428693740773528",
-   "url":"https://fbcdn-video-l-a.akamaihd.net/hvideo-ak-xpa1/v/t42.1790-2/11223180_1428693800773522_105807484_n.mp4?efg=eyJxZSI6ImZiY2RuX3ZpZGVvX3JhdGVsaW1pdF9yb2xsb3V0Mix2X3JvbGxvdXQiLCJybHIiOjU0NSwicmxhIjo1MTJ9&rl=545&vabr=303&oh=d5c0d0a36c5a75520758969db22cc2d2&oe=5556F7CA&__gda__=1431753137_8141cd5880d195db73c20e5b26f650ea",
-   "name":"TOSQ",
-   "desc":"삼둥이도 적다. 사둥이는 되야지\n책상과 의자세트도 직접 제작한듯ㅋㅋㅋ \n#baby #Laughing \n  \n  \n  \n  \n  \n#귀요미 더보기 -> http://tosq.tv/pd/babies \n원본링크 https://www.youtube.com/watch?v=zZH0sNsaAz4",
-   "thumb_url":"https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xtf1/v/t15.0-10/11189097_1428693840773518_1904978325_n.jpg?oh=b59e98b9153dff06337c96d0514b288c&oe=55C3F8AA&__gda__=1438973665_0aa297242e5a94ac16bdcd75312e3452",
-   "duration":66,
-   "ratings":null,
-   "details":{
-      "definition":"",
-      "author":{
-         "id":"1399785403664362",
-         "title":"TOSQ"
-      }
-   },
-   "provider":"facebook"
+    "id": "765726663573936",
+    "url": "https://www.facebook.com/713427005470569/videos/765726663573936",
+    "name": "스낵 - Snackk.tv",
+    "desc": "애 엄마가 보면 기겁할 듯 ㅇ0ㅇ\n\n #첫눈 온 날 라이딩 영상보며 대리만족\n+귀여운 아기는 덤",
+    "thumb_url": "https://scontent.xx.fbcdn.net/hvthumb-xap1/v/t15.0-10/s480x480/12105363_765755180237751_1022961937_n.jpg?oh=e7e102c2dce9fa6463b3ffc9cedff592&oe=56E72E65",
+    "duration": 233,
+    "ctime": "2015-11-26T14:58:17+09:00",
+    "ratings": null,
+    "details": {
+        "definition": "",
+        "author": {
+            "id": "713427005470569",
+            "title": "스낵 - Snackk.tv"
+        },
+        "source": "https://video.xx.fbcdn.net/hvideo-xpa1/v/t43.1792-2/12251290_1016430301743231_1083820292_n.mp4?efg=eyJybHIiOjI5OTQsInJsYSI6NDA5NiwidmVuY29kZV90YWciOiJzdmVfaGQifQ%3D%3D&rl=2994&vabr=1996&oh=31a605409c8bd8fd3f427793a7377b7b&oe=5659E9A0"
+    },
+    "provider": "facebook"
 }
 
 {
