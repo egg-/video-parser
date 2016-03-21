@@ -1,3 +1,7 @@
+# 1.8.1
+
+- Additional exception logic for video is not available on the external site.
+
 # 1.8.0
 
 - Change facebook video data structure.

@@ -61,6 +61,7 @@ var url = [
   // 'http://m.tvcast.naver.com/v/582587',
   // 'http://tvcast.naver.com/v/582590',
   // 'http://tvcast.naver.com/v/584455/list/53478'
+  // 'http://tvcast.naver.com/v/797661'
 
   // rutube
   // 'http://rutube.ru/video/2a39043b2108428a150fa27376adbea2/',
