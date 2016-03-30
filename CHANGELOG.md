@@ -1,3 +1,7 @@
+# 1.8.2
+
+- Change error message: `video.forbidden_video` -> `video.forbidden`
+
 # 1.8.1
 
 - Additional exception logic for video is not available on the external site.
