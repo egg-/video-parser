@@ -1,3 +1,7 @@
+# 1.8.4
+
+- Remove lodash dependency.
+
 # 1.8.3
 
 - Add redirect URL exception logic. (vimeo)
