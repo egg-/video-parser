@@ -1,3 +1,7 @@
+# 1.8.3
+
+- Add redirect URL exception logic. (vimeo)
+
 # 1.8.2
 
 - Change error message: `video.forbidden_video` -> `video.forbidden`
