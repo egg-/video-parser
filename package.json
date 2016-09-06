@@ -1,6 +1,6 @@
 {
   "name": "video-parser",
-  "version": "1.8.4",
+  "version": "1.9.0",
   "author": {
     "name": "egg",
     "email": "i@egg.pe.kr"
@@ -23,7 +23,8 @@
     "tvcast",
     "rutube",
     "daum",
-    "tvpot"
+    "tvpot",
+    "tudou"
   ],
   "license": "MIT",
   "main": "./index",

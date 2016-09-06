@@ -17,6 +17,9 @@ var parser = new VideoParser({
   youku: {
     key: '' // client_id
   },
+  tudou: {
+    key: '' // app_key
+  },
   ttl: 1 // 3600 * 12  // 1 day
 })
 
@@ -76,6 +79,11 @@ var url = [
   // 'http://tvpot.daum.net/clip/ClipView.do?clipid=72589907',
   // 'http://tvpot.daum.net/v/34RNu2rwWe8%24',
   // 'http://tvpot.daum.net/mypot/View.do?clipid=72583600&ownerid=mRlSExWR4-Q0'
+
+  // todou
+  // 'http://www.tudou.com/programs/view/uKg4c5O0YyQ/'
+  // 'http://www.tudou.com/v/hCgJVRch33w/&rpid=993090858&resourceId=993090858_04_05_99/v.swf'
+  // 'http://www.tudou.com/v/hCgJVRch33w/&bid=05&rpid=993090858&resourceId=993090858_05_05_99/v.swf'
 ]
 
 for (var i = 0; i < url.length; i++) {

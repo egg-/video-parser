@@ -51,6 +51,9 @@ var parser = new VideoParser({
     },
     youku: {
         key: ''
+    },
+    tudou: {
+        key: ''
     }
     ttl: 3600 * 12  // 1 day
 })
@@ -68,7 +71,8 @@ var url = [
     'http://www.dailymotion.com/video/x2jvvep',
     'http://tvcast.naver.com/v/584455',
     'http://rutube.ru/video/2a39043b2108428a150fa27376adbea2/',
-    'http://tvpot.daum.net/mypot/View.do?clipid=72583600&ownerid=mRlSExWR4-Q0'
+    'http://tvpot.daum.net/mypot/View.do?clipid=72583600&ownerid=mRlSExWR4-Q0',
+    'http://www.tudou.com/programs/view/uKg4c5O0YyQ/'
 ]
 
 for (var i = 0; i < url.length; i++) {
@@ -247,6 +251,26 @@ for (var i = 0; i < url.length; i++) {
     },
     "provider": "daumtvpot"
 }
+
+{
+	"id": "uKg4c5O0YyQ",
+	"url": "http://www.tudou.com/programs/view/uKg4c5O0YyQ/",
+	"name": "CHARIS首尔美妆之旅（9.21-25）预告片",
+	"desc": "韩国潮流美妆平台CHARIS首尔美妆之旅（9.21-25）预告片",
+	"thumb_url": "http://g4.tdimg.com/260146303/diy_w_1.jpg",
+	"duration": 12000,
+	"ctime": "2016-09-06T00:00:00+09:00",
+	"ratings": {},
+	"details": {
+		"definition": "",
+		"author": {
+			"id": 993028656,
+			"title": "CHARIS官方"
+		}
+	},
+	"provider": "tudou"
+}
+
 ```
 
 

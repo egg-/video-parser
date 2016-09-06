@@ -1,3 +1,7 @@
+# 1.9.0
+
+- Add tudou parser. (http://www.tudou.com/)
+
 # 1.8.4
 
 - Remove lodash dependency.
