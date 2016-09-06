@@ -20,6 +20,7 @@ Important
 * [naver tvcast](http://tvcast.naver.com) - It can be stopped unexpectedly due to parse the data from the site.
 * [rutube](http://rutube.ru/)
 * [daum tvpot](http://tvpot.daum.net) - It can be stopped unexpectedly due to parse the data from the site.
+* [tudou](http://www.tudou.com/)
 
 ## Dependencies
 
