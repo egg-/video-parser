@@ -56,8 +56,8 @@ var url = [
   // 'http://www.dailymotion.com/video/x2jvvep',
 
   // naver tvcast
-  // 'http://tvcast.naver.com/v/13346/list/1316',
-  // 'http://tvcast.naver.com/v/13346',
+  // 'http://tvcast.naver.com/v/1240332/list/67096',
+  // 'http://tvcast.naver.com/v/1205110',
   // 'http://tvcast.naver.com/v/505592',
   // 'http://tvcast.naver.com/v/582616',
   // 'http://m.tvcast.naver.com/v/582691',
