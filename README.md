@@ -42,7 +42,8 @@ var parser = new VideoParser({
     name: 'video-parser-cache',
     redis: {
         host: '127.0.0.1',
-        port: 6379
+        port: 6379,
+        auth_pass: 'passwd' // (optional)
     },
     youtube: {
         key: ''

@@ -1,3 +1,7 @@
+# 1.9.1
+
+- Add redis option. (auth_pass)
+
 # 1.9.0
 
 - Add tudou parser. (http://www.tudou.com/)
