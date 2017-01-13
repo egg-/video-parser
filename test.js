@@ -56,15 +56,15 @@ var url = [
   // 'http://www.dailymotion.com/video/x2jvvep',
 
   // naver tvcast
-  // 'http://tvcast.naver.com/v/1240332/list/67096',
-  // 'http://tvcast.naver.com/v/1205110',
-  // 'http://tvcast.naver.com/v/505592',
-  // 'http://tvcast.naver.com/v/582616',
-  // 'http://m.tvcast.naver.com/v/582691',
-  // 'http://m.tvcast.naver.com/v/582587',
-  // 'http://tvcast.naver.com/v/582590',
-  // 'http://tvcast.naver.com/v/584455/list/53478'
-  // 'http://tvcast.naver.com/v/797661'
+  // 'http://tv.naver.com/v/1240332/list/67096',
+  // 'http://tv.naver.com/v/1205110',
+  // 'http://tv.naver.com/v/505592',
+  // 'http://tv.naver.com/v/582616',
+  // 'http://m.tv.naver.com/v/582691',
+  // 'http://m.tv.naver.com/v/582587',
+  // 'http://tv.naver.com/v/582590',
+  // 'http://tv.naver.com/v/584455/list/53478',
+  // 'http://tv.naver.com/v/797661'
 
   // rutube
   // 'http://rutube.ru/video/2a39043b2108428a150fa27376adbea2/',
