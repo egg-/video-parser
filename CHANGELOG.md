@@ -1,4 +1,7 @@
 # 1.9.1
+- fixed #18 : naver tv domain.
+
+# 1.9.1
 
 - Add redis option. (auth_pass)
 
