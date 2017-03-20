@@ -98,7 +98,8 @@ var url = [
 
   // gomtv
   // 'http://www.gomtv.com/14692214',
-  // 'http://www.gomtv.com/14683612'
+  // 'http://www.gomtv.com/14683612',
+  // 'http://www.gomtv.com/14692650'
 ]
 
 for (var i = 0; i < url.length; i++) {
