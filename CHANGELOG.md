@@ -1,9 +1,15 @@
-# 1.9.1
+# 1.9.3
+
+- Update youtube parser (tags)
+
+# 1.9.2
+
 - fixed #18 : naver tv domain.
 
 # 1.9.1
 
 - Add redis option. (auth_pass)
+- Update naver tv cast parser (meta tags)
 
 # 1.9.0
 

@@ -56,26 +56,26 @@ var url = [
   // 'http://www.dailymotion.com/video/x2jvvep',
 
   // naver tvcast
-  'http://tv.naver.com/v/1240332/list/67096',
-  'http://tv.naver.com/v/1205110',
-  'http://tv.naver.com/v/505592',
-  'http://tv.naver.com/v/582616',
-  'http://m.tv.naver.com/v/582691',
-  'http://m.tv.naver.com/v/582587',
-  'http://tv.naver.com/v/582590',
-  'http://tv.naver.com/v/584455/list/53478',
-  'http://tv.naver.com/v/797661',
-  'http://tvcast.naver.com/v/1240332/list/67096',
-  'http://tvcast.naver.com/v/1205110',
-  'http://tvcast.naver.com/v/505592',
-  'http://tvcast.naver.com/v/582616',
-  'http://m.tvcast.naver.com/v/582691',
-  'http://m.tvcast.naver.com/v/582587',
-  'http://tvcast.naver.com/v/582590',
-  'http://tvcast.naver.com/v/584455/list/53478',
-  'http://tvcast.naver.com/v/797661',
-  'http://tv.naver.com/v/1371804',
-  'http://tv.naver.com/v/1341505'
+  // 'http://tv.naver.com/v/1240332/list/67096',
+  // 'http://tv.naver.com/v/1205110',
+  // 'http://tv.naver.com/v/505592',
+  // 'http://tv.naver.com/v/582616',
+  // 'http://m.tv.naver.com/v/582691',
+  // 'http://m.tv.naver.com/v/582587',
+  // 'http://tv.naver.com/v/582590',
+  // 'http://tv.naver.com/v/584455/list/53478',
+  // 'http://tv.naver.com/v/797661',
+  // 'http://tvcast.naver.com/v/1240332/list/67096',
+  // 'http://tvcast.naver.com/v/1205110',
+  // 'http://tvcast.naver.com/v/505592',
+  // 'http://tvcast.naver.com/v/582616',
+  // 'http://m.tvcast.naver.com/v/582691',
+  // 'http://m.tvcast.naver.com/v/582587',
+  // 'http://tvcast.naver.com/v/582590',
+  // 'http://tvcast.naver.com/v/584455/list/53478',
+  // 'http://tvcast.naver.com/v/797661',
+  // 'http://tv.naver.com/v/1371804',
+  // 'http://tv.naver.com/v/1341505'
 
   // rutube
   // 'http://rutube.ru/video/2a39043b2108428a150fa27376adbea2/',
@@ -91,10 +91,10 @@ var url = [
   // 'http://tvpot.daum.net/v/34RNu2rwWe8%24',
   // 'http://tvpot.daum.net/mypot/View.do?clipid=72583600&ownerid=mRlSExWR4-Q0'
 
-// todou
-// 'http://www.tudou.com/programs/view/uKg4c5O0YyQ/'
-// 'http://www.tudou.com/v/hCgJVRch33w/&rpid=993090858&resourceId=993090858_04_05_99/v.swf'
-// 'http://www.tudou.com/v/hCgJVRch33w/&bid=05&rpid=993090858&resourceId=993090858_05_05_99/v.swf'
+  // todou
+  // 'http://www.tudou.com/programs/view/uKg4c5O0YyQ/'
+  // 'http://www.tudou.com/v/hCgJVRch33w/&rpid=993090858&resourceId=993090858_04_05_99/v.swf'
+  // 'http://www.tudou.com/v/hCgJVRch33w/&bid=05&rpid=993090858&resourceId=993090858_05_05_99/v.swf'
 ]
 
 for (var i = 0; i < url.length; i++) {
@@ -102,9 +102,9 @@ for (var i = 0; i < url.length; i++) {
     console.log(arguments)
   }, url[i])
 
-// parser.parse(function (err, video) {
-//   console.log(JSON.stringify(video), err)
-// }, url[i])
+  parser.parse(function (err, video) {
+    console.log(JSON.stringify(video), err)
+  }, url[i])
 }
 
 // test duration
