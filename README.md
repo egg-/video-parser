@@ -21,6 +21,7 @@ Important
 * [rutube](http://rutube.ru/)
 * [daum tvpot](http://tvpot.daum.net) - It can be stopped unexpectedly due to parse the data from the site.
 * [tudou](http://www.tudou.com/)
+* [gomtv](http://www.gomtv.com/) - by [@ignocide](https://github.com/ignocide)
 
 ## Dependencies
 
@@ -75,7 +76,8 @@ var url = [
     'http://tv.naver.com/v/1341505',
     'http://rutube.ru/video/2a39043b2108428a150fa27376adbea2/',
     'http://tvpot.daum.net/mypot/View.do?clipid=72583600&ownerid=mRlSExWR4-Q0',
-    'http://www.tudou.com/programs/view/uKg4c5O0YyQ/'
+    'http://www.tudou.com/programs/view/uKg4c5O0YyQ/',
+    'http://www.gomtv.com/14692214'
 ]
 
 for (var i = 0; i < url.length; i++) {
@@ -334,6 +336,29 @@ for (var i = 0; i < url.length; i++) {
     "provider": "tudou"
 }
 
+{
+	"id": "14692214",
+	"url": "http://www.gomtv.com/14692214",
+	"name": "담장 넘어간 타구를 잡아 낸 아담 존스의 완벽한 슈퍼 캐치 [미국 vs 도미니카]",
+	"desc": "2017 월드베이스볼 클래식\r\n미국 vs 도미니카 [WBC 2017]\r\n\t\t\t\t\t\t\t\r\n태그 : WBC, 월드 베이스볼 클래식",
+	"thumb_url": "http://chi.gomtv.com/cgi-bin/imgview.cgi?nid=11433506&type=11",
+	"duration": 0,
+	"ctime": "2017-03-19T00:00:00+09:00",
+	"ratings": {},
+	"tags": [
+		"WBC",
+		"월드 베이스볼 클래식"
+	],
+	"details": {
+		"definition": "",
+		"author": {},
+		"embed": {
+			"id": "2542eec85811250e10097d289b9e3248275af384060d38475176045dffe2",
+			"url": "https://cubec.gomtv.com/player/VideoStart_v2.swf?sharemode=true&disablePopup=true&autoplay=false&h=2542eec85811250e10097d289b9e3248275af384060d38475176045dffe2"
+		}
+	},
+	"provider": "gomtv"
+}
 ```
 
 

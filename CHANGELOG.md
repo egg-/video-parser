@@ -1,3 +1,7 @@
+# 2.0.0
+
+- Add gomtv parser. ([@ignocide](https://github.com/ignocide))
+
 # 1.9.3
 
 - Update youtube parser (tags)
