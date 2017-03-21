@@ -95,6 +95,11 @@ var url = [
   // 'http://www.tudou.com/programs/view/uKg4c5O0YyQ/'
   // 'http://www.tudou.com/v/hCgJVRch33w/&rpid=993090858&resourceId=993090858_04_05_99/v.swf'
   // 'http://www.tudou.com/v/hCgJVRch33w/&bid=05&rpid=993090858&resourceId=993090858_05_05_99/v.swf'
+
+  // gomtv
+  // 'http://www.gomtv.com/14692214',
+  // 'http://www.gomtv.com/14683612',
+  // 'http://www.gomtv.com/14692650'
 ]
 
 for (var i = 0; i < url.length; i++) {
