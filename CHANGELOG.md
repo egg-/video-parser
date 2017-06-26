@@ -1,3 +1,7 @@
+# 2.1.0
+
+- Add authentication processing based on version upgrade of Facebook sdk ([@ignocide](https://github.com/ignocide))
+
 # 2.0.0
 
 - Add gomtv parser. ([@ignocide](https://github.com/ignocide))

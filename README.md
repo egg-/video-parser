@@ -57,7 +57,12 @@ var parser = new VideoParser({
     },
     tudou: {
         key: ''
-    }
+    },
+    facebook: {
+      appId: '',
+      appSecret: '',
+      access_token: ''
+    },
     ttl: 3600 * 12  // 1 day
 })
 
