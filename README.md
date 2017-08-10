@@ -22,6 +22,7 @@ Important
 * [daum tvpot](http://tvpot.daum.net) - It can be stopped unexpectedly due to parse the data from the site.
 * [tudou](http://www.tudou.com/)
 * [gomtv](http://www.gomtv.com/) - by [@ignocide](https://github.com/ignocide)
+* html5 - by [@revolunet](https://github.com/revolunet)
 
 ## Dependencies
 
@@ -41,6 +42,7 @@ var VideoParser = require('video-parser')
 
 var parser = new VideoParser({
     name: 'video-parser-cache',
+    // Save as in memory if redis is not specified
     redis: {
         host: '127.0.0.1',
         port: 6379,
@@ -82,7 +84,8 @@ var url = [
     'http://rutube.ru/video/2a39043b2108428a150fa27376adbea2/',
     'http://tvpot.daum.net/mypot/View.do?clipid=72583600&ownerid=mRlSExWR4-Q0',
     'http://www.tudou.com/programs/view/uKg4c5O0YyQ/',
-    'http://www.gomtv.com/14692214'
+    'http://www.gomtv.com/14692214',
+    'http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_5mb.mp4'
 ]
 
 for (var i = 0; i < url.length; i++) {
@@ -363,6 +366,15 @@ for (var i = 0; i < url.length; i++) {
 		}
 	},
 	"provider": "gomtv"
+}
+
+{
+	"id": "http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_5mb.mp4",
+	"url": "http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_5mb.mp4",
+	"name": "big_buck_bunny_720p_5mb",
+	"duration": 29.568,
+	"ctime": "1970-01-01T09:00:00+09:00",
+	"provider": "html5"
 }
 ```
 

@@ -1,3 +1,11 @@
+# 2.3.0
+
+- Change redis setting to option
+
+# 2.2.0
+
+- Add HTML5 parser. ([@revolunet](https://github.com/revolunet))
+
 # 2.1.0
 
 - Add authentication processing based on version upgrade of Facebook sdk ([@ignocide](https://github.com/ignocide))
