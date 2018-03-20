@@ -20,6 +20,11 @@ var parser = new VideoParser({
   tudou: {
     key: '' // app_key
   },
+  facebook: {
+    appId: '',
+    appSecret: '',
+    access_token: ''
+  },
   ttl: 1 // 3600 * 12  // 1 day
 })
 
@@ -34,12 +39,14 @@ var url = [
   // 'https://youtu.be/O5jUi3kBins',
   // 'https://youtu.be/O5jUi3kBins?t=16s',
   // 'https://youtu.be/-RWl24TUW6g',
+  // 'https://youtu.be/Do8td4vBEt0?t=7m38s'
   // 'https://www.youtube.com/watch?t=28&v=B4k8BiTd-_s',
   // 'https://vimeo.com/60788712',
 
   // facebook
   // 'https://www.facebook.com/video/embed?video_id=368508506585276',
-  // 'https://www.facebook.com/1399785403664362/videos/1428693740773528/',
+  // 'https://www.facebook.com/1399785403664362/videos/1428693740773528/'
+  // 'https://www.facebook.com/annacay22/videos/1169018463231376/'
   // 'https://www.facebook.com/snackk100/videos/754790044667598/?permPage=1',
   // 'https://www.facebook.com/insight.co.kr/videos/vb.374726359324617/907652546031993/?type=2&theater',
   // 'https://www.facebook.com/Jrockradio/videos/vb.102198813200663/880536688700201/?type=2&theater',
